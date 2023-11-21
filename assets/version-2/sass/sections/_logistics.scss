@@ -1,0 +1,57 @@
+/*------------------------------
+    Logistics Area
+------------------------------*/
+.logistics_area{
+    padding: 105px 0 100px;
+    background: url(../img/bg/map-bg.png) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &.style-02{
+        padding: 130px 0 50px;
+    }
+    &.style-03{
+        padding: 110px 0 180px;
+    }
+    .logistics-image{
+        background: url(../img/bg/logistics-bg.png) no-repeat center;
+        height: 100%;
+        display: block;
+    }
+    .logistics-content{
+        margin-top: 80px;
+    }
+    .counterup{
+        padding: 10px 0px 130px;
+        position: relative;
+        z-index: 0;
+        overflow: hidden;
+        .countr{
+            text-align: left;
+            padding: 20px 0px;
+            .couter-icon{
+                i{
+                    padding: 0px;
+                    color: var(--active-color);
+                    &::before {
+                        font-size: 50px;
+                    }
+                }
+            }
+            .counter {
+                font-size: 40px;
+                line-height: 45px;
+                font-weight: 700;
+               color: var(--active-color);
+                display: block;
+                margin-bottom: 20px;
+            } 
+            .title {
+                text-transform: capitalize;
+                line-height: 24px;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
+}

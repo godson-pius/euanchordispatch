@@ -1,0 +1,10 @@
+/*------------------------------
+    About Us Area
+------------------------------*/
+.service_area {
+  background-color: var(--active-color); }
+  .service_area .service-image {
+    background: url(../img/bg/service-bg.png) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    display: block; }

@@ -1,0 +1,110 @@
+/*----------------------
+    Faq Page
+----------------------*/
+.faq-area{
+    padding: 130px 0 120px;
+    background-color:  var(--secondary-color);
+    .brochures{
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+        padding: 30px 30px 20px;
+        justify-content: end;
+        text-align: end;
+        ul{
+            list-style: none;
+            li{
+                padding: 5px 0;
+                a{
+                    &:hover{
+                        color:var(--active-color);
+                    }
+                }
+            }
+        }
+    }
+    .faq-wrap{
+        width:100%;
+        .accordion {
+            list-style:none;
+            padding-left:40px;
+            padding-right:20px;
+            li { 
+            border: 2px solid rgba(0,0,0,0.07);
+            padding: 5px 30px 5px 70px;
+            margin-bottom: 30px;
+            &:last-child{
+                margin-bottom: 0px;
+            }
+              &.active {
+                .answer {
+                  max-height:275px !important;
+                  padding-bottom:25px;
+                  transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+                }
+                .question {
+                  color:var(--active-color);
+                  transition:color 0.5s ease;
+                }
+                
+              }
+            }
+            .answer {
+              font-size:16px;
+              line-height:24px;
+              max-height:0;
+              overflow:hidden;
+              transition:max-height 0.5s ease, padding-bottom 0.5s ease;
+            }
+            .plus-minus-toggle {
+              cursor: pointer;
+              height: 20px;
+              position: absolute;
+              width: 20px;
+              left:-40px;
+              top:50%;
+              z-index:2;
+              &:before,
+              &:after {
+                background: #000;
+                content: '';
+                height: 3px;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 20px;
+                transition: transform 500ms ease;
+              }
+          
+              &:after {
+                transform-origin: center;
+              }
+          
+              &.collapsed {
+                &:after {
+                  transform: rotate(90deg);
+                }
+          
+                &:before {
+                  transform: rotate(180deg);
+                }
+              }
+            }
+            .question {
+              position:relative;
+              cursor:pointer;
+              padding:15px 0;
+              transition:color 0.5s ease; 
+              h4{
+               font-size:18px;
+              font-weight:700;
+              text-transform:capitalize;
+              }
+            }
+          }
+          
+    }
+}
+.experience{
+    padding: 130px 0 130px;
+    background-color:  var(--active-color);
+
+}

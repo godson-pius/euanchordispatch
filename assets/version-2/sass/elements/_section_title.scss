@@ -1,0 +1,44 @@
+/*----------------------------------------
+  ## Section title
+----------------------------------------*/
+.section-title{
+    margin-bottom: 60px;
+    &.solution{
+        margin-top: 100px;
+    }
+    &.white{
+        margin-bottom: 60px;
+       .subtitle{
+        color: $white;
+        &.style-03{
+            color: var(--active-color);
+        }
+        }
+        .title{
+            color: $white;
+        }
+        p{
+            color: var(--paragraph-color2);
+            margin-bottom: 40px;
+        }
+    }
+   .subtitle{
+        color: var(--active-color);
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 600;
+        font-family: Raleway;
+        margin-bottom: 10px;
+        
+    }
+    .title{
+        &.active{
+            color: var(--active-color);
+        }
+        
+    }
+    p{
+        color: var(--paragraph-color);
+        margin-bottom: 40px;
+    }
+}

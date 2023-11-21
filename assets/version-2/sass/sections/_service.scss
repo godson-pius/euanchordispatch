@@ -1,0 +1,42 @@
+/*------------------------------
+    Service Area
+------------------------------*/
+.service_area{
+    background-color:var(--button-color);
+     display: inline-block;
+    .service-content{
+        padding: 130px 0 130px;
+        .service-item{
+            margin-top: 30px;
+            .service-single-item{
+                padding-top: 10px;
+                margin-bottom: 30px;
+                h3{
+                    color: var(--secondary-color);
+                    span{
+                        color: var(--active-color);
+                        padding-right: 7px;
+                    }
+                }
+                p{
+                    color: var(--paragraph-color2);
+                    width: 90%;
+                }
+            }
+        }
+    }
+    .service-image{
+        background: url(../img/service/service.png) no-repeat center;
+        background-size: cover;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        background-size: cover;        
+        background-position: center;
+        transition: all 0.5s ease;
+    }
+    p{
+        color: var(--paragraph-color);
+    }
+}

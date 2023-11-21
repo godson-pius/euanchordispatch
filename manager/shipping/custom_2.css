@@ -1,0 +1,495 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.lft
+{
+	float:left;
+}
+
+.rgt
+{
+	float:right;
+}
+
+.ovr_hd
+{
+	overflow:hidden;
+}
+.pad5
+{
+	padding: 5px 0;
+}
+
+.pad10
+{
+	padding:10px;
+}
+
+.mrg0
+{
+	margin:0 auto;
+}
+
+.mrg10
+{
+	margin:10px auto;
+}
+
+
+
+.in_flx
+{
+	display:inline-flex;
+}
+
+.in_cap
+{
+	display: table-caption;
+}
+
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.red
+{
+	color:#FF0000;
+}
+.green_bg
+{
+	background: #f0fede;
+}
+
+.bule_bg
+{
+	background: #e5f0ff;
+}
+	
+#head
+{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0750b0+0,2271dd+44,0e6cec+100 */
+background: #0750b0; /* Old browsers */
+background: -moz-linear-gradient(left, #0750b0 0%, #2271dd 44%, #0e6cec 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #0750b0 0%,#2271dd 44%,#0e6cec 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #0750b0 0%,#2271dd 44%,#0e6cec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0750b0', endColorstr='#0e6cec',GradientType=1 ); /* IE6-9 */
+
+padding:20px;
+}
+
+.nobg
+{
+	background-color: transparent;
+}
+
+#head h1
+{
+	color:#fff;
+	font-size: 28px;
+	    margin: 10px 0;
+}
+
+#head h4
+{
+	color:#fff;
+	font-size: 17px;
+	    margin: 10px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+	color: #006ced;
+    background: #fff;
+    margin: 0 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover
+{
+	color: #111;
+}
+
+.ind_form
+{
+	background-color: #fefefe;
+    border-radius: 3px;
+    margin: 40px 0;
+    padding: 20px 35px;
+    box-shadow: 0 5px 53px -7px rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #eaeaea;
+}
+
+.prof
+{
+	background-color: #fefefe;
+    border-radius: 3px;
+    margin: 40px 0;
+    padding: 20px 35px;
+    box-shadow: 0 5px 53px -7px rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #eaeaea;
+}
+
+.form-control:focus
+{
+	 box-shadow: 0 0 0 -0.8rem rgb(21, 111, 229);
+}
+
+.form-control
+{
+	 border-radius: 0;
+}
+
+
+
+.footer
+{
+	padding: 10px;
+	color: #fff;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+.btn-1 {
+    text-align: center;
+	background-color: #086deb;
+    border: 2px solid #076ceb8a;
+    height: 45px;
+    line-height: 25px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 3px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+	font-weight:500;
+	cursor: pointer;
+}
+
+.btn-1:hover
+{
+	background: transparent;
+    border: 2px solid #026cee;
+    color: #0c6dea;
+}
+
+.txt_box {
+    box-shadow: 0 4px 20px -5px rgba(11, 11, 11, 0.45);
+    height: 45px;
+    border: 1px solid #056cec52;
+}
+
+.title-1 {
+    display: inline-block;
+   	margin-left: -28px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+	    padding: 10px 0;
+}
+
+.track-prod .font2-light {
+    letter-spacing: 1px;
+}
+
+
+
+.font2-light {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+	margin-left: 25px;
+	    color: #11111191;
+}
+
+.ind_form:before
+{
+    content: "";
+    height: 2px;
+    left: 14px;
+    position: absolute;
+    top: 87px;
+    width: 38px;
+    background-color: #026bee;
+}
+
+
+#hgt81
+{
+	min-height:81vh;
+}
+
+.modal-dialog
+{
+	max-width: 900px;
+}
+
+.alert
+{
+    color: #f31808;
+    background-color: transparent;
+    border-color: #fff;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.alert h4
+{
+	font-size:14px;
+}
+
+.navbar
+{
+	padding: 20px 0;
+	    float: right;
+}
+
+.navbar-dark .navbar-toggler
+{
+	color: #fff !important;
+	border-color: #fff;
+}
+
+
+.navbar-toggler
+{
+	padding: 5px;
+	font-size: 15px;
+	margin: 5px 0;
+}
+
+.mrg30
+{
+	    margin: 30px 0;
+}
+
+.table-bordered
+{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 100;
+	font-size: 13px;
+}
+
+.txt_center
+{
+	text-align: center;
+}
+
+.right_track
+{
+    text-align: left;
+    line-height: 30px;
+}
+
+.right_track h3
+{
+	font-size: 18px;
+    border: 1px dashed #036bed;
+    padding: 5px;
+    text-align: center;
+}
+
+.right_track button
+{
+	margin: 10px 0px;
+}
+
+.dash {
+    background-color: #fefefe;
+    border-radius: 3px;
+    margin: 40px 0;
+    padding: 20px 35px;
+    box-shadow: 0 5px 53px -7px rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #eaeaea;
+}
+
+.tittle
+{
+	background: #6db21c;
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 0.8px;
+
+}
+
+.vi_ship
+{
+	background: #026bee;
+    padding: 2px 6px;
+    margin: 0 10px;
+    border-radius: 3px;
+}
+
+.vi_ship i
+{
+	color:#fff;
+}
+
+.up_sts
+{
+	padding: 3px 5px;
+    background: #fff;
+    border: 1px solid #026bed99;
+}
+
+.up_sts:hover
+{
+	text-decoration:none;
+}
+
+
+@media (min-width: 250px) and (max-width: 799px) 
+{	
+	
+	.navbar
+	{
+		padding:0 0;
+		 float: none;
+	}
+		.navbar-dark .navbar-nav .nav-link
+	{
+		background:none;
+	}
+	
+	.navbar-dark .navbar-nav .nav-link
+	{
+		color:#fff;
+		border-bottom: 1px dashed;
+	}
+	
+	.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover
+	{
+		color:#fff;
+		border-bottom: 1px dashed;
+	}
+	
+	.mrg10res
+	{
+	margin:10px auto;
+	}
+	
+	.top
+	{
+	top: 8px;
+	position: relative;
+	}
+
+	.tbl_cel
+	{
+		display:table-cell;
+	}
+
+}
+
+
+
+/*****NO MORE TABLE STARTS HERE******/
+
+@media only screen and (max-width: 800px) {
+    
+    /* Force table to not be like tables anymore */
+	#no-more-tables table, 
+	#no-more-tables thead, 
+	#no-more-tables tbody, 
+	#no-more-tables th, 
+	#no-more-tables td, 
+	#no-more-tables tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	#no-more-tables tr { border: 1px solid #ccc; }
+ 
+	#no-more-tables td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal; 
+		text-align:left;
+	}
+ 
+	#no-more-tables td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	#no-more-tables td:before { content: attr(data-title); }
+}
+@media  (max-width: 2400px)  and (min-width: 800px) {
+ .firsttable td:before { content: attr(data-title); }
+}
+
+/*****NO MORE TABLE END HERE******/
+
+
+
+/*****MY SHIPMENT VIEW PAGE CSS STARTS HERE******/
+.close
+{
+    padding: 5px !important;
+    border: 1px solid #111 !important;
+    border-radius: 50px !important;
+    padding-top: 0px !important;
+    margin: 0 !important;
+}
+
+.modal-body
+{
+	overflow: hidden;
+}
+
+.upship
+{
+	text-align:center;
+	    margin: 20px;
+}
+
+.col-md-offset-1{
+	margin-left: 8.33333333%;
+}
+
+.list-group 
+{
+	margin-top: 15px;
+}
+
+.list-group-item
+{
+	padding: 5px 1.25rem;
+}
+
+/*****MY SHIPMENT VIEW PAGE CSS END HERE******/

@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: "Avenir Next W01", "Proxima Nova W01", "Rubik", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #3E4B5B;
+  text-align: left;
+  background-color: #fff;
+}
+
+
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid rgba(83, 101, 140, 0.33);
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: none;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid rgba(83, 101, 140, 0.33);
+}
+
+.table .table {
+  background-color: #fff;
+}
+
+
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(94, 130, 152, 0.05);
+}
+
+.table.table-lightfont td {
+  font-weight: 300;
+}
+
+
+
+.content-box {
+  vertical-align: top;
+  padding: 2rem 2.5rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.element-box{
+	padding: 1.5rem 2rem;
+  	margin-bottom: 1rem;
+	border-radius: 6px;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 2px 4px rgba(126, 142, 177, 0.12);
+	box-shadow: 0px 2px 4px rgba(126, 142, 177, 0.12);
+}
+
+
+.all-wrapper.solid-bg-all {
+    background-color: #f2f4f8;
+}
+
+
+.element-wrapper .element-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+
+.element-wrapper .element-header:after {
+    content: "";
+    background-color: #24b314;
+    width: 25px;
+    height: 4px;
+    border-radius: 0px;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
+}
+
+
+.table thead th {
+    font-size: 0.63rem;
+    text-transform: uppercase;
+    border-top: none;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+table.dataTable thead > tr > th.sorting_asc, table.dataTable thead > tr > th.sorting_desc, table.dataTable thead > tr > th.sorting, table.dataTable thead > tr > td.sorting_asc, table.dataTable thead > tr > td.sorting_desc, table.dataTable thead > tr > td.sorting {
+  padding-right: 30px;
+}
+
+table.dataTable thead > tr > th:active, table.dataTable thead > tr > td:active {
+  outline: none;
+}
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
+  cursor: pointer;
+  position: relative;
+}
+
+table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after {
+  position: absolute;
+  bottom: 0.9em;
+  display: block;
+  opacity: 0.3;
+}
+
+table.dataTable thead .sorting:before, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_desc_disabled:before {
+  right: 1em;
+  content: "\2191";
+}
+
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after {
+  right: 0.5em;
+  content: "\2193";
+}
+
+table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_desc:after {
+  opacity: 1;
+}
+
+table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_desc_disabled:after {
+  opacity: 0;
+}
+
+
+
+
+@media only screen and (max-width: 575px){
+	.content-box{
+		padding: 2rem 1rem;
+	}
+
+
+	.element-box{
+		padding: 1.5rem .5rem
+	}
+
+	.dataTables_filter{
+		margin-top: .5rem !important;	
+	}
+
+	.dataTables_paginate{
+		margin-top: 1rem !important;
+	}
+
+
+	
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+	.content-box{
+		padding: 2rem 1rem;
+	}
+
+
+	.element-box{
+		padding: 1.5rem .5rem
+	}
+}
+
+.footer a{
+	color: #797979f2;
+}

@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+	## Company 
+--------------------------------------------------------------*/
+.company-area {
+    padding: 135px 0px 120px;
+    background-color: rgba(#14448C, 1);
+    position: relative;
+    .company-carousel {
+        .single-carousel-item {
+            display: inline-block;
+            padding: 0 10px;
+            &:hover {
+                img {
+                    filter: grayscale(0);
+                }
+            }
+            img {
+                @include transition($transition);
+                filter: grayscale(100%);
+            }
+        }
+    }
+}

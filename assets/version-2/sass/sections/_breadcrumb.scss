@@ -1,0 +1,112 @@
+/*---------------------
+    Breadcumb Area
+----------------------*/
+
+.breadcumb-area {
+    position: relative;
+    padding: 295px 0 220px 0;
+    z-index: 0;
+    &:after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(#201D2E, .70);
+        content: '';
+        z-index: -1;
+    }
+
+    &.service-bg {
+        background-image: url(../img/bg/service-bg.png);
+        background-position: center;
+        background-size: cover;
+    }
+    &.about-bg {
+        background-image: url(../img/bg/about-bg.png);
+        background-position: center;
+        background-size: cover;
+    }
+    &.contact-bg {
+        background-image: url(../img/bg/contact-bg.png);
+        background-position: center;
+        background-size: cover;
+    }
+    &.pricing-bg {
+        background-image: url(../img/bg/pricing-bg.png);
+        background-position: center;
+        background-size: cover;
+    }
+    &.faq-bg {
+        background-image: url(../img/bg/faq-bg.png);
+        background-position: center;
+        background-size: cover;
+    }
+    &.service-details-01 {
+        background-image: url(../img/bg/service-details-01.png);
+        background-position: center;
+        background-size: cover;
+    }
+    &.service-details-02 {
+        background-image: url(../img/bg/service-details-02.png);
+        background-position: center;
+        background-size: cover;
+    }
+    &.service-details-03 {
+        background-image: url(../img/bg/service-details-03.png);
+        background-position: center;
+        background-size: cover;
+    }
+    &.service-details-04 {
+        background-image: url(../img/bg/service-details-04.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .breadcumb-inner {
+        text-align: center;
+        .title {
+            font-size: 50px;
+            font-weight: 700;
+            color: $white;
+            line-height: 60px;
+        }
+        .page-lists {
+            margin: 0;
+            padding: 0;
+            li {
+                display: inline-block;
+                margin: 0 12px;
+                position: relative;
+                color: rgba($white, .6);
+                font-size: 16px;
+                &:last-child {
+                    &:after {
+                        display: none;
+                    }
+                }
+                a {
+                    color: var(--active-color);
+                    @include transition($transition);
+                    font-weight: 500;
+                    font-size: 18px;
+                    &:hover {
+                        color: $white;
+                    }
+                }
+                &:after {
+                    content:">";
+                    position: absolute;
+                    right: -17px;
+                    top: 2px;
+                    font-weight: 600;
+                    color: var(--active-color);
+                }
+
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+}

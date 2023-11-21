@@ -1,0 +1,179 @@
+/*----------------------
+    Pricing Page
+----------------------*/
+.price-area{
+    padding: 185px 0 130px;
+    background-color:  var(--secondary-color);
+    .single-price-wrapper{
+         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+         padding:30px;
+         &.active{
+             background-color:   var(--button-color);
+             position: relative;
+             padding:30px;
+             margin-top: -15px;
+             .price-icon {
+                 position: absolute;
+                 top: -40px;
+                 left: 50%;
+                display: block;
+                text-align: center;
+                width: 90px;
+                height: 90px;
+                line-height: 90px;
+                background-color:   var(--secondary-color);
+                color:  var(--active-color);
+                box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+                border-radius: 50%;
+                display: flex;
+                transform: translateX(-50%);
+                p{
+                    color:  var(--active-color);
+                    font-weight: 700;
+                    margin: auto;
+                }
+             }
+         }
+        .single-price-plan{
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            border: 4px solid #F14B4B4D;
+            padding: 0px 0 40px 0;
+            &.active{
+                background-color:   var(--button-color);
+                border: 4px solid  #FFFFFF0D;
+                padding: 20px 0px 50px ;
+                .price-header{
+                    .title{
+                        color:  var(--secondary-color);
+                    }
+                    p{
+                        color:  var(--secondary-color);
+                    }
+                    .price{
+                        color:  var(--active-color);
+                    }
+                }
+                .price-body{
+                    ul{
+                        li{
+                            color:  var(--secondary-color);                         
+                        }
+                        .strike{
+                            text-decoration: line-through;
+                        } 
+                    }
+                }
+            }
+            &:hover{
+                .price-header{
+                    &:after{
+                        background-color: rgba(22, 48, 77, 0.5);
+                         @include transition($transition);
+                    }
+                }
+                .price-footer{
+                   
+                }
+            }
+            .price-header{
+                position: relative;
+                z-index: 0;
+                padding: 40px 20px 0px;
+                .title{
+                    font-size: 30px;
+                    font-weight: 600;
+                    line-height: 36px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+                .price{
+                    line-height: 65px;
+                    font-weight: 600;
+                    font-size: 50px;
+                    color:  var(--active-color);
+                }
+            }
+            .price-body{
+                padding: 15px 0;
+                ul{
+                    li{
+                        display: block;
+                        color:  var(--paragraph-color);
+                        padding: 5px;
+                        
+                    }
+                    .strike{
+                        text-decoration: line-through;
+                    } 
+                }
+            }
+            .price-footer{
+                
+            }
+        }
+    }
+   
+}
+.calculator-area{
+    padding: 130px 0 130px;
+    background-color:  var(--bg-color);
+    .shipment-form-wrap{
+        padding: 50px 30px;
+        background-color: var(--secondary-color);
+        margin-top: 0px;
+        box-shadow: 0px -10px 10px #eee;
+        h3{
+            color: var(--active-color);
+            margin-bottom: 20px;
+        }
+        #shipment-form{
+            h4{
+                font-weight: 700;
+                color: var(--main-color);
+            }
+            .weight{
+                display: inline-flex;
+                width: 100%;
+                span{
+                    margin: 8px 12px 8px 0px;
+                }
+            }
+            .shipment-process{
+                margin: 20px 0;
+                .form-group{
+                    .form-radio{
+                        padding: 0px 10px 0px 20px;
+                    }
+                    label{
+                        padding: 0px 10px 0px 5px;
+                    }
+                }
+            }
+        }
+        .form-group {
+            width: 100%;
+            select{
+                margin-bottom: 30px !important;
+            }
+            .form-control {
+                display: block;
+                width: 100%;
+                height: 50px;
+                line-height: 1.5;
+                color: #495057;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                border-radius: 0px;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+

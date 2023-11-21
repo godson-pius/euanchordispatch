@@ -1,0 +1,79 @@
+/*
+Theme Name: Bausins
+Theme URI: 
+Author: 
+Author URI: 
+Description: Bausins is a business website template
+Version: 1.0.0
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+# Typography
+# Normalize
+# Accessibility
+# Globals
+# Alignments
+# Clearings
+# Posts and pages
+# Captions
+# Galleries
+# Unit test
+# guterberg
+# Gutenberg	Default Style
+# Block Color Palette Colors
+# Sections
+    ## Breadcrumb
+    ## Comments
+    ## Widgets
+    ## Nav Bar
+    ## Info Bar
+    ## Header
+
+# Elements
+    ## Back Top
+    ## Preloader
+    ## Search Popup
+    ## Video Popup
+    ## Button
+    ## Section Title
+--------------------------------------------------------------*/
+
+//== Global Design
+@import "global/_mixins";
+@import "global/_variables";
+@import "global/_global";
+@import "global/_gutenberg";
+//== Pages
+@import "pages/_about";
+@import "pages/_pricing";
+@import "pages/_contact";
+@import "pages/_faq";
+@import "pages/_service_details";
+
+//== Sections
+@import "sections/_breadcrumb";
+@import "sections/_comments";
+@import "sections/_widgets";
+@import "sections/_support_bar";
+@import "sections/_navbar";
+@import "sections/_header";
+@import "sections/_service";
+@import "sections/_solution";
+@import "sections/_features";
+@import "sections/_logistics";
+@import "sections/_shipment";
+@import "sections/_testimonial";
+@import "sections/_transport_service";
+@import "sections/_company";
+@import "sections/_footer";
+//== Elements
+@import "elements/_back_top";
+@import "elements/_preloader";
+@import "elements/_search_popup";
+@import "elements/_button";
+@import "elements/_accordion";
+@import "elements/_section_title";

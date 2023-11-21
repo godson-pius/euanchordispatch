@@ -1,0 +1,11 @@
+/*------------------------------
+    FeaturesArea
+------------------------------*/
+.features-area {
+  padding: 130px 0 130px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/bg/feature-bg.png) no-repeat center center;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg/feature-bg.png) no-repeat center center;
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg/feature-bg.png) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg/feature-bg.png) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; }

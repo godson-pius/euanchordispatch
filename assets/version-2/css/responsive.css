@@ -1,0 +1,1485 @@
+
+/* Xtra Large Screen i (min-width: 1366) */
+@media screen and (min-width: 1366px) {
+    .container {
+        max-width: 1300px;
+    }
+	h2 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	h3 {
+		font-size: 22px;
+		line-height: 28px;
+	}
+	p{
+		font-size:14px;
+	}
+	a{
+		font-size:14px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .title {
+		font-size: 46px;
+		line-height: 65px;
+		margin-bottom: 50px;
+	}
+	.home-area.home-v2 .header-bg .header-inner-wrap .header-inner .title {
+		font-size: 46px;
+		line-height: 65px;
+		margin-bottom: 50px;
+	}
+	.home-area.home-v3 .header-bg .header-inner-wrap .header-inner .title {
+		font-size: 46px;
+		line-height: 65px;
+		margin-bottom: 30px;
+	}
+	.home-area.home-v3 .home-v3-contact {
+		left: 3%;
+		transform: rotate(0deg);
+		top: 72%;
+	}
+	.home-area .transport-slider-progress {
+		left: 4%;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-image .header-slide-image.image1 {
+		margin-top: 30%;
+		right: 11%;
+	}
+	.features-area .features-item .single-features-item {
+		padding: 60px 0px;
+		width: 200px;
+		height: 200px;
+	}
+	.features-area {
+		padding: 100px 0 150px;
+	}
+	.logistics_area .logistics-image {
+		background-size: 90%;
+	}
+	.logistics_area {
+		padding: 50px 0 0px;
+	}
+	.features-area .features-item {
+		margin: 130px 60px 50px;
+	}
+	.testimonial-area .slick-next {
+		right: -50px;
+	}
+	.testimonial-area.style-02 .testimonial-slider-two .slick-next{
+		right: -20px;
+	}
+	.testimonial-area.style-02 .testimonial-slider-two .slick-prev{
+		left: -20px;
+	}
+	.features-area.style-02 .features-item .single-features-item {
+		padding: 90px 10px;
+		width: 240px;
+		height: 240px;
+	}
+	.features-area.style-02 {
+		padding: 130px 0 35px;
+	}
+	.logistics_area.style-03 {
+		padding: 50px 0 50px;
+	}
+	.logistics_area.style-02 {
+		padding: 130px 0 0px;
+	}
+	.service-style-02 {
+		padding: 130px 0 70px;
+	}
+	.header-height1 {
+		height: calc(100vh - 80px); 
+   }
+   .home-area.home-v2 .header-sm-slider img {
+    margin-top: 14%;
+    padding-right: 10px;
+}
+}
+/* Xtra Large Screen ii (min-width: 1400) */
+@media screen and (min-width: 1400px) {
+    .container {
+        max-width: 1360px;
+	}
+	.home-area .transport-slider-progress {
+		left: 3%;
+	}
+	.header-height1 {
+		height: calc(100vh - 80px); 
+   }
+}
+/*Xtra Large Screen iii (min-width: 1440) */
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1380px;
+    }
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .title {
+		font-size: 50px;
+		line-height: 70px;
+	}
+	.home-area .transport-slider-progress {
+		left: 3%;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-image .header-slide-image.image1 {
+		margin-top: 30%;
+		right: 13%;
+	}
+	.features-area .features-item .single-features-item {
+		padding: 70px 10px;
+		width: 220px;
+		height: 220px;
+	}
+	.transport-service-single .transport-service-content:before {
+		top: auto;
+	}
+	.header-height1 {
+		height: calc(100vh - 80px); 
+   }
+   .home-area.home-v2 .header-sm-slider img {
+	margin-top: 26%;
+}
+}
+
+/*Xtra Large Screen iv (min-width: 1600) */
+@media screen and (min-width: 1600px) {
+    .container {
+        max-width: 1540px;
+	}
+	p{
+		font-size:16px;
+	}
+	a{
+		font-size:16px;
+	}
+	h2 {
+		font-size: 46px;
+		line-height: 65px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .title {
+		font-size: 55px;
+		line-height: 70px;
+	}
+	.home-area .transport-slider-progress {
+		top: 30%;
+		left: 3%;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-image .header-slide-image.image1 {
+		margin-top: 22%;
+		right: 13%;
+	}
+	.features-area .features-item {
+		margin: 130px 60px 70px;
+	}
+	.logistics_area .logistics-image {
+		background-size: 95%;
+	}
+	.logistics_area {
+		padding: 40px 0 30px;
+	}
+	.testimonial-area.style-02 .testimonial-slider-two .slick-next{
+		right: -20px;
+	}
+	.testimonial-area.style-02 .testimonial-slider-two .slick-prev{
+		left: -20px;
+	}
+	.features-area.style-02 .features-item .single-features-item {
+		width: 280px;
+		height: 240px;
+	}
+	.features-area.style-02 {
+		padding: 110px 0 10px;
+	}
+	.header-height1 {
+		height: calc(100vh - 80px); 
+   }
+   .home-area.home-v2 .header-sm-slider img {
+    	margin-top: 23%;
+	}
+}
+/*Xtra Large Screen v (min-width: 1680) */
+@media screen and (min-width: 1680px) {
+    .container {
+        max-width: 1640px;
+    }
+    h2 {
+        font-size: 46px;
+        line-height: 65px;
+	}
+	h3 {
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .title {
+		font-size: 60px;
+		line-height: 75px;
+		margin-bottom: 60px;
+	}
+	.home-area.home-v2 .header-bg .header-inner-wrap .header-inner .title {
+		font-size: 60px;
+		line-height: 75px;
+		margin-bottom: 60px;
+	}
+	.home-area.home-v3 .header-bg .header-inner-wrap .header-inner .title {
+		font-size: 60px;
+		line-height: 75px;
+		margin-bottom: 60px;
+	}
+	.home-area .transport-slider-progress {
+		top: 29%;
+		left: 2.5%;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-image .header-slide-image.image1 {
+		margin-top: 20%;
+		right: 14%;
+	}
+	.features-area .features-item {
+		margin: 130px 60px 60px;
+	}
+	.testimonial-area.style-02 .testimonial-slider-two .slick-next{
+		right: -20px;
+	}
+	.testimonial-area.style-02 .testimonial-slider-two .slick-prev{
+		left: -20px;
+	}
+	.home-area.home-v3 .home-v3-contact {
+		left: -8%;
+		top: 45%;
+		transform: rotate(90deg);
+	}
+	.transpor-address .address-bg .single-transpor-address {
+		margin: 0px;
+	}
+	.home-area.home-v3 .home-v3-contact {
+		left: -10%;
+	}
+	.header-height1 {
+		 height: calc(100vh - 80px); 
+	}
+	.features-area.style-02 {
+		padding: 110px 0 110px;
+	}
+	.home-area.home-v2 .header-sm-slider img {
+		margin-top: 22%;
+	}
+}
+/*Xtra Large Screen xxl (min-width: 1920) */
+@media screen and (min-width: 1920px) {
+    h2 {
+        font-size: 50px;
+        line-height: 65px;
+	}
+	h3 {
+		font-size: 24px;
+		line-height: 28px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .title {
+		font-size: 65px;
+		line-height: 80px;
+		margin-bottom: 60px;
+	}
+	.home-area .transport-slider-progress {
+		top: 30.5%;
+		left: 8%;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-image .header-slide-image.image1 {
+		margin-top: 18%;
+		right: 4%;
+	}
+	.features-area .features-item {
+		margin: 150px 60px 0px;
+	}
+	.testimonial-area.style-02 .testimonial-slider-two .slick-next{
+		right: -60px;
+	}
+	.testimonial-area.style-02 .testimonial-slider-two .slick-prev{
+		left: -60px;
+	}
+	.logistics_area {
+		padding: 105px 0 100px;
+	}
+	.home-area.home-v3 .home-v3-contact {
+		left: -7%;
+	}
+	.home-area.home-v2 .header-sm-slider img {
+		margin-top: 19%;
+	}
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1365px){
+    
+	h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	p{
+		font-size:14px;
+	}
+	a{
+		font-size:14px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .title {
+		font-size: 46px;
+		line-height: 60px;
+		margin-bottom: 50px;
+	}
+	.home-area .transport-slider-progress {
+		left: 3%;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-image .header-slide-image.image1 {
+		margin-top: 50%;
+		right: 12%;
+	}
+	.header-height1 {
+		height: calc(100vh - 80px); 
+   }
+}
+/* Medium Layout: 1200px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	h2 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+	p{
+		font-size:14px;
+	}
+	a{
+		font-size:14px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .title {
+		font-size: 36px;
+		line-height: 50px;
+		margin-bottom: 40px;
+	}
+	.home-area .transport-slider-progress {
+		height: 270px;
+		top: 32%;
+		left: 3%;
+	}
+	.home-area.home-v2 .header-bg .header-inner-wrap .header-inner .title {
+		font-size: 36px;
+		line-height: 50px;
+		margin-bottom: 30px;
+	}
+	.home-area.home-v3 .header-bg .header-inner-wrap .header-inner .title {
+		font-size: 36px;
+		line-height: 50px;
+		margin-bottom: 30px;
+	}
+	.home-area.home-v3 .home-v3-contact {
+		left: 3%;
+		transform: rotate(0deg);
+		top: 72%;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-image .header-slide-image.image1 {
+		margin-top: 38%;
+		right: 12%;
+	}
+	.features-area .features-item {
+		margin: 10px 20px 0px;
+	}
+	.features-area .features-item .single-features-item {
+		padding: 40px 0px;
+		width: 160px;
+		height: 160px;
+		margin: 15px;
+	}
+	.features-area .features-item .single-features-item h4 {
+		margin-left: 10px;
+	}
+	.features-area {
+		padding: 180px 0 180px;
+	}
+	.logistics_area .logistics-image {
+		background-size: 95%;
+	}
+	.logistics_area {
+		padding: 30px 0 50px;
+	}
+	.transpor-address .address-bg .single-transpor-address {
+		padding: 50px 0px;
+	}
+	.price-area .single-price-wrapper {
+		margin-bottom: 30px;
+	}
+	.transport-service-single .transport-service-content:before {
+		top: 2%;
+	}
+	.features-area.style-02 .features-item .single-features-item {
+		padding: 70px 0px;
+		width: 200px;
+		height: 200px;
+		margin-bottom: 30px;
+	}
+	.features-area.style-02 .features-item .single-features-item .icon {
+		margin: auto;
+		padding-bottom: 10px;
+	}
+	.testimonial-area.style-02 .testimonial-slider-two .slick-next{
+		right: -20px;
+	}
+	.testimonial-area.style-02 .testimonial-slider-two .slick-prev{
+		left: -20px;
+	}
+	.features-area .features-item .single-features-item .icon i::before {
+		font-size: 40px;
+	}
+	.header-height1 {
+		height: calc(100vh - 80px); 
+   }
+   .support-bar {
+    	height: 60px;
+	}
+	.support-bar .support-left ul li {
+		margin: 0 3px;
+	}
+	.testimonial-area .slick-dots {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.home-area.home-v3 .header-bg .header-inner-wrap .header-inner {
+		margin-left: 0;
+		margin-top: -120px;
+		position: relative;
+	}
+	.home-area.home-v3 .header-sm-slider3 .custom-thumb h3 {
+		padding: 0px 10px;
+		line-height: 30px;
+		font-size: 17px;
+	}
+	.logistics_area.style-03 {
+		padding: 50px 0 0px;
+	}
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	h4 {
+		font-size: 18px;
+	}
+	p{
+		font-size:13px;
+	}
+	a{
+		font-size:14px;
+	}
+	.navbar-area {
+		padding: 15px 0px;
+	}
+	.navbar-collapse {
+        background: var(--secondary-color);
+		padding-left: 35px;
+		padding-right: 35px;
+        margin-top: 10px;
+        width: calc(100% - 80px);
+    }
+	.navbar-area .nav-container .navbar-collapse .navbar-nav li.current-menu-item a {
+		color: var(--active-color); 
+	}
+	
+	.navbar-area.nav-style-03 {
+		background-color: transparent;
+		margin-top: 10px;
+	}
+	.navbar-area.nav-style-03 .nav-container .nav-right-content {
+		padding-right: 10px;
+		right: 20%;
+		position: absolute;
+	}
+	
+    .navbar-area .nav-container .nav-right-content .nav-right-menu {
+        margin-right: 35px;
+    }
+
+    .responsive-mobile-menu .navbar-toggler {
+        position: absolute;
+        right: 0;
+        top: 0px;
+    }
+
+    .navbar-area .nav-container .nav-right-content .nav-right-menu li {
+        margin-top: 7px !important;
+    }
+
+    .navbar-area .nav-container .nav-right-content .nav-right-menu li.search {
+        margin-right: 30px;
+    }
+
+    .navbar-area.nav-style-02 .nav-container {
+        padding-bottom: 20px !important;
+	}
+	.breadcumb-area {
+		padding: 245px 0 170px 0;
+	}
+	.transpor-address .address-bg .single-transpor-address {
+		margin: 0px 15px 30px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .title {
+		font-size: 36px;
+		line-height: 50px;
+		margin-bottom: 40px;
+		margin-top: 20px;
+	}
+	.home-area.home-v2 .header-bg .header-inner-wrap .header-inner .title {
+		font-size: 36px;
+		line-height: 50px;
+		margin-bottom: 40px;
+		margin-top: 20px;
+	}
+	.home-area.home-v3 .header-bg .header-inner-wrap .header-inner .title {
+		font-size: 36px;
+		line-height: 50px;
+		margin-bottom: 40px;
+		margin-top: 20px;
+	}
+	
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-image .header-slide-image {
+		display: none;
+	}
+	.home-area .transport-slider-progress {
+		display: none;
+	}
+	.home-area .slick-dots {
+		display: none !important;
+	}
+	.about-address{
+		padding: 130px 0 0px;
+	}
+	.about-us .about-content {
+		margin-left: 0%; 
+		padding: 130px 30px 0px;
+		width: 100%;
+	}
+	.about-video {
+		margin-top: -40px;
+	}
+	.widget.footer-widget {
+		text-align: center;
+	}
+	.transpor-mission .mission-content::before {
+		display: none;
+	}
+	
+	.transpor-mission .mission-content {
+		margin: 0px; 
+	}
+	.footer-area .footer-copyright-area {
+		text-align: center;
+	}
+	.footer-area .footer-copyright-area .footer-social {
+		text-align: center;
+		float: none;
+	}
+	.price-area .single-price-wrapper {
+		margin-bottom: 30px;
+	}
+	.price-area {
+		padding: 130px 0 100px;
+	}
+	.price-area .single-price-wrapper.active {
+		margin-top: 30px;
+	}
+	.faq-area .brochures {
+		margin-bottom: 30px;
+	}
+	.contact-area .contact-image {
+		display: none;
+	}
+	.support-bar {
+		height:auto;
+		text-align: center;
+		padding: 10px 5px;
+	}
+	.support-bar .support-right {
+		float: none;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	
+	.solution_area .solution-item {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.service_area .service-image {
+		display: none;
+	}
+	.logistics_area .logistics-image {
+		display: none;
+	}
+	.features-area .features-item {
+		margin: 100px 53px 110px;
+	}
+	.shipment-area .shipment-form-wrap {
+		margin-top: 60px;
+		box-shadow: none;
+	}
+	.logistics_area {
+		padding: 40px 0 0px;
+	}
+	.testimonial-area .slick-dots {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.testimonial-area .testimonial-slider {
+		height: auto;
+	}
+	.home-area.home-v3 .home-v3-contact {
+		left: -18%;
+		top: 42%;
+	}
+	.solution_area.style-03 .solution-bg {
+		display: none;
+	}
+	.solution_area.style-03 {
+		padding: 0px 0 90px;
+	}
+	.logistics_area.style-03 {
+		padding: 45px 0 0px;
+	}
+	.logistics_area.style-02 {
+		padding: 40px 0 0px;
+	}
+	.solution_area.style-02 .solution-bg {
+		display: none;
+	}
+	.shipment-area .shipment-form-wrap .form-group .form-control {
+		height: 40px;
+		margin-bottom: 10px;
+	}
+	.transport-service-single .transport-service-content:before {
+		display: none;
+	}
+	.transport-service-single .transport-service-content {
+		margin: auto;
+		padding-top: 30px;
+		padding-left: 0px;
+	}
+	.shipment-area.style-02 .shipment-form-wrap {
+		margin: 0px;
+		margin-bottom: 0px;
+		margin-top: 60px;
+	}
+	.home-area.home-v2 .header-bottom .controler-wrapper .progressbar{
+		display: none;
+	}
+	.features-area .features-item .single-features-item {
+		padding: 70px 0px;
+		width: 210px;
+		height: 210px;
+		margin: 15px;
+	}
+	.home-area .slider-bottom-transport-wrapper .transport-slider-nav-item a {
+		display: grid;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap {
+		height: -webkit-fill-available;
+	}
+	.home-area.home-v3 .header-bg .header-image .header-slide-image {
+		display: none;
+	}
+	.home-area.home-v3 .home-v3-contact {
+		left: 3%;
+		transform: rotate(0deg);
+		top: 72%;
+	}
+	.solution_area.style-02 {
+		padding: 25px 0 100px;
+	}
+	.header-sm-slider3{
+		display: none;
+	}
+	.home-area.home-v3 .header-bottom .controler-wrapper {
+		left: 0px;
+		bottom: 80px;
+	}
+	.home-area.home-v2 .header-bottom .home-v2-contact {
+		margin: 0%;
+		margin-bottom: 6%;
+	}
+	.features-area.style-02 .features-item {
+		margin-top: 60px;
+	}
+	.features-area.style-02 {
+		padding: 110px 0 0px;
+	}
+	.features-area.style-02 .features-item .single-features-item {
+		padding: 100px 10px;
+	}
+	.margin-top-60 {
+		margin-top: 00px;
+	}
+	.shipment-area.style-03 {
+		padding: 90px 0 130px;
+	}
+	.service-style-01{
+		padding-bottom: 40px;
+	}
+	.transpor-mission {
+		padding: 100px 0px 100px;
+	}
+	/* .transpor-address {
+		padding: 0px 0px 110px;
+	} */
+	.service-left-sidebar{
+		margin-bottom: 30px;
+	}
+	.service-right-sidebar{
+		margin-top: 60px;
+	}
+	.home-area {
+		height: auto !important;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item {
+		height: auto;
+		padding: 250px 0px 200px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap {
+		height: auto !important;
+	}
+	.home-area .slider-bottom-transport-wrapper {
+		bottom: 20px;
+	}
+	.home-area.home-v2 .header-slider .header-bg {
+		position: relative;
+		padding: 20px 0px 300px;
+	}
+	.home-area.home-v2 .header-bg .header-inner-wrap {
+		height: auto !important;
+	}
+	
+	.home-area.home-v3 .header-bg {
+		position: relative;
+		padding: 10px 0px 10px;
+	}
+	.home-area.home-v3 .header-bg .header-inner-wrap {
+		height: auto !important;
+	}
+	.header-height {
+		padding: 150px 0px 250px;
+	}
+	.home-area.home-v2 .header-sm-slider img {
+		width: 180px;
+		height: 120px;
+		margin-top: 12%;
+		padding-right: 20px;
+	}
+}
+
+/* Tablet Layout wide: 768px. */
+
+@media only screen and (max-width: 767px){
+	h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	h3{
+		font-size: 24px;
+		line-height: 30px;
+	}
+	h4 {
+		font-size: 18px;
+	}
+	p{
+		font-size:13px;
+	}
+	a{
+		font-size:14px;
+	}
+	.logo-wrapper.mobile-logo {
+        display: block;
+        width: 100%;
+    }
+    
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li.current-menu-item a {
+		color: var(--main-color); 
+	}
+    .responsive-mobile-menu .navbar-toggler {
+        position: absolute;
+        right: 5px;
+        top: 0px;
+	}
+	.navbar-area {
+		padding: 20px 0px;
+		margin: 0px;
+	}
+    .navbar-area .nav-container .nav-right-content .nav-right-menu li {
+        margin-top: 14px;
+	}
+	.navbar-collapse {
+		background: var(--secondary-color);
+		padding-left: 35px;
+		margin-top: 10px;
+		width: calc(100% - 20px);
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .title {
+		font-size: 36px;
+		line-height: 50px;
+		margin-bottom: 40px;
+		margin-top: 20px;
+	}
+	.home-area.home-v2 .header-bg .header-inner-wrap .header-inner .title {
+		font-size: 36px;
+		line-height: 50px;
+		margin-bottom: 40px;
+		margin-top: 20px;
+	}
+	.home-area.home-v3 .header-bg .header-inner-wrap .header-inner .title {
+		font-size: 36px;
+		line-height: 50px;
+		margin-bottom: 40px;
+		margin-top: 20px;
+	}
+	
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-image .header-slide-image {
+		display: none;
+	}
+	.home-area .transport-slider-progress {
+		height: 230px;
+		top: 36%;
+		left: 10%;
+	}
+	.home-area.home-v2 .header-bottom .controler-wrapper {
+		display: none;
+	}
+
+	.support-bar {
+		height: auto;
+		padding: 10px 5px;
+	}
+	.support-bar .support-right {
+		display: block;
+		float: left;
+		margin-bottom: 10px;
+	}
+	.home-area .slick-dots {
+		display: none !important;
+	}
+	.breadcumb-area {
+		padding: 245px 0 170px 0;
+	}
+	.contact-area .contact-image {
+		display: none;
+	}
+	.transpor-address .address-bg .single-transpor-address {
+		margin: 0px 15px 30px;
+	}
+	.about-address{
+		padding: 130px 0 0px;
+	}
+	.transpor-mission {
+		padding: 95px 0px 130px;
+	}
+	.about-us .about-content {
+		margin-left: 0%; 
+		padding: 130px 30px 0px;
+		width: 100%;
+	}
+	.about-video {
+		margin-top: -40px;
+	}
+	.widget.footer-widget {
+		text-align: center;
+	}
+	.footer-area .footer-copyright-area {
+		text-align: center;
+	}
+	.footer-area .footer-copyright-area .footer-social {
+		text-align: center;
+		float: none;
+	}
+	.price-area .single-price-wrapper {
+		margin-bottom: 30px;
+	}
+	.price-area .single-price-wrapper.active {
+		margin-top: 40px;
+	}
+	.price-area {
+		padding: 130px 0 100px;
+	}
+	.breadcumb-area .breadcumb-inner .title {
+		font-size: 40px;
+	}
+	.faq-area .brochures {
+		margin-bottom: 30px;
+	}
+	.faq-area .faq-wrap .accordion .question h4 {
+		font-weight: 600;
+	}
+	.solution_area .solution-item {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.service_area .service-image {
+		display: none;
+	}
+	.logistics_area .logistics-image {
+		display: none;
+	}
+	.features-area .features-item {
+		margin: 60px 40px 110px;
+	}
+	.shipment-area .shipment-form-wrap {
+		margin-top: 60px;
+		box-shadow: none;
+	}
+	.features-area .features-item .single-features-item {
+		padding: 40px 0px;
+		width: 170px;
+		height: 170px;
+	}
+	.features-area .features-item .single-features-item .icon i::before {
+		font-size: 36px;
+	}
+	.logistics_area {
+		padding: 40px 0 0px;
+		margin-bottom: -40px;
+	}
+	.testimonial-area .slick-dots {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.testimonial-area .testimonial-slider {
+		height: auto;
+	}
+	.home-area.home-v3 .home-v3-contact {
+		left: -18%;
+		top: 42%;
+	}
+	.solution_area.style-03 .solution-bg {
+		display: none;
+	}
+	.solution_area.style-03 {
+		padding: 0px 0 90px;
+	}
+	.logistics_area.style-03 {
+		padding: 45px 0 0px;
+	}
+	.logistics_area.style-02 {
+		padding: 40px 0 0px;
+	}
+	.solution_area.style-02 .solution-bg {
+		display: none;
+	}
+	.shipment-area .shipment-form-wrap .form-group .form-control {
+		height: 40px;
+		margin-bottom: 10px;
+	}
+	.transport-service-single .transport-service-content:before {
+		display: none;
+	}
+	.transport-service-single .transport-service-content {
+		margin: auto;
+		padding-top: 30px;
+		padding-left: 0px;
+	}
+	.shipment-area.style-02 .shipment-form-wrap {
+		margin: 0px;
+		margin-bottom: 0px;
+		margin-top: 60px;
+	}
+	.home-area.home-v2 .header-bottom .controler-wrapper .progressbar {
+		display: none;
+	}
+	.home-area .slider-bottom-transport-wrapper .transport-slider-nav-item a {
+		display: grid;
+	}
+	.home-area .slider-bottom-transport-wrapper .transport-slider-nav-item a i {
+		padding-bottom: 10px;
+	}
+	.header-height1 {
+		height: auto;
+	}
+	.home-area.home-v3 .header-bg .header-image .header-slide-image {
+		display: none;
+	}
+	.header-sm-slider3{
+		display: none;
+	}
+	.home-area.home-v3 .header-bottom .controler-wrapper {
+		left: 0px;
+		bottom: 80px;
+	}
+	.solution_area.style-02 {
+		padding: 25px 0 100px;
+	}
+	.features-area.style-02 .features-item {
+		margin-top: 60px;
+	}
+	.features-area.style-02 {
+		padding: 110px 0 0px;
+	}
+	.features-area.style-02 .features-item .single-features-item {
+		padding: 100px 10px;
+	}
+	.margin-top-60 {
+		margin-top: 00px;
+	}
+	.home-area.home-v2 .header-bottom .home-v2-contact {
+		margin: 0%;
+		margin-bottom: 6%;
+	}
+	.shipment-area.style-03 {
+		padding: 90px 0 130px;
+	}
+	.service-style-01{
+		padding-bottom: 40px;
+	}
+	.transpor-mission {
+		padding: 100px 0px 100px;
+	}
+	/* .transpor-address {
+		padding: 0px 0px 110px;
+	} */
+	.service-details .service-item .service-item-text {
+		padding: 20px 10px 10px 0px;
+	}
+	.service-left-sidebar{
+		margin-bottom: 30px;
+	}
+	.service-right-sidebar{
+		margin-top: 60px;
+	}
+	.home-area {
+		height: auto !important;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item {
+		height: auto;
+		padding: 250px 0px 200px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap {
+		height: auto !important;
+	}
+	.home-area .slider-bottom-transport-wrapper {
+		bottom: 20px;
+	}
+	.home-area.home-v2 .header-slider .header-bg {
+		position: relative;
+		padding: 20px 0px 300px;
+	}
+	.home-area.home-v2 .header-bg .header-inner-wrap {
+		height: auto !important;
+	}
+	.home-area.home-v3 .header-bg {
+		position: relative;
+		padding: 10px 0px 250px;
+	}
+	.home-area.home-v3 .header-bg .header-inner-wrap {
+		height: auto !important;
+	}
+	.header-height {
+		padding: 150px 0px 250px;
+	}
+	.home-area.home-v2 .header-sm-slider img {
+		width: 180px;
+		height: 120px;
+		margin-top: 12%;
+		padding-right: 20px;
+	}
+}
+/* medium tablet layout 599px */
+
+@media only screen and (max-width: 599px){
+    
+    .navbar-collapse {
+		background: var(--secondary-color);
+		padding-left: 35px;
+		margin-top: 10px;
+		width: calc(100% - 20px);
+	}
+}
+
+@media only screen and (min-width:415px) and (max-width: 450px){
+	h2 {
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: 600;
+	}
+	h3 {
+		font-size: 20px;
+		line-height: 30px;
+		font-weight: 500;
+	}
+	h4 {
+		font-size: 15px;
+		font-weight: 500;
+	}
+	p{
+		font-size:13px;
+	}
+	a{
+		font-size:14px;
+	}
+    
+    .navbar-collapse {
+		background: var(--secondary-color);
+		padding-left: 35px;
+		margin-top: 10px;
+		width: calc(100% - 20px);
+	}
+	
+	.transpor-mission .mission-content {
+		margin: 0px; 
+	}
+	.transpor-mission .mission-content::before {
+		display: none;
+	}
+	.section-title .subtitle {
+		font-size: 16px;
+	}
+	.home-area .transport-slider-progress {
+		display: none;
+	}
+	.features-area .features-item {
+		margin: 0px 40px 60px;
+		transform: rotate(0deg);
+	}
+	.features-area .features-item .single-features-item {
+		padding: 80px 0px;
+		width: 250px;
+		height: 250px;
+	}
+	.features-area .features-item .single-features-item .icon {
+		transform: rotate(0deg);
+		text-align: center;
+		margin: 0px;
+	}
+	.features-area .features-item .single-features-item h4 {
+		transform: rotate(0deg);
+		text-align: center;
+		margin-top: 20px;
+	}
+	.logistics_area .counterup .countr {
+		text-align: center;
+	}
+	.logistics_area .counterup {
+		padding: 10px 0px 100px;
+	}
+	.home-area.home-v3 .home-v3-contact {
+		left: 3%;
+		transform: rotate(0deg);
+		top: 72%;
+	}
+	.support-bar .support-right .fare-rate-responsive {
+		display: none;
+	}
+	.support-bar .support-right {
+		text-align: center;
+		float: none;
+	}
+	.support-bar .support-left {
+		text-align: center;
+	}
+	.support-bar .support-left ul li {
+		margin: 7px 15px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .title {
+		font-size: 28px;
+		line-height: 40px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .sub-title {
+		font-size: 16px;
+	}
+	.features-area {
+		padding: 100px 0 130px;
+	}
+	.service-details.style-04 .service-sidebar-item .service-item-inner h2 {
+		font-size: 24px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .title {
+		font-size: 32px;
+		line-height: 46px;
+	}
+	.home-area .slider-bottom-transport-wrapper .transport-slider-nav-item a i::before {
+		font-size: 40px;
+	}
+	.home-area.home-v2 .header-sm-slider img {
+		margin-top: 22%;
+		padding-right: 20px;
+	}
+	.features-area.style-02 .features-item .single-features-item h4 {
+		margin-top: 0px;
+	}
+	.home-area.home-v2 .header-slider .header-bg {
+		position: relative;
+		padding: 20px 0px 200px;
+	}
+	.features-area.style-02 .features-item .single-features-item {
+		width: 260px;
+		height: 240px;
+		margin-bottom: 30px;
+	}
+}
+
+/* mobile tablet layout 414px */
+
+@media only screen and (max-width: 414px){
+	.home-area .transport-slider-progress {
+		display: none;
+	}
+	.support-bar .support-right .fare-rate-responsive {
+		display: none;
+	}
+	.features-area .features-item {
+		margin: 0px 40px 60px;
+		transform: rotate(0deg);
+	}
+	.features-area .features-item .single-features-item {
+		padding: 90px 0px;
+		width: 250px;
+		height: 250px;
+	}
+	.features-area .features-item .single-features-item .icon {
+		transform: rotate(0deg);
+		text-align: center;
+		margin: 0px;
+		padding-right: 25px;
+
+	}
+	.features-area .features-item .single-features-item h4 {
+		transform: rotate(0deg);
+		text-align: center;
+		margin-top: 10px;
+	}
+	.logistics_area .counterup .countr {
+		text-align: center;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .title {
+		font-size: 32px;
+		line-height: 46px;
+		margin-top: 10px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .sub-title {
+		font-size: 16px;
+	}
+	.home-area .slider-bottom-transport-wrapper .transport-slider-nav-item a i::before {
+		font-size: 40px;
+	}
+	.home-area .transport-slider-item.slick-active .header-inner .transport-btn span {
+		font-size: 16px;
+	}
+	.support-bar .support-right .fare-rate-responsive {
+		display: none;
+	}
+	.support-bar .support-right {
+		text-align: center;
+		float: none;
+	}
+	.support-bar .support-left {
+		text-align: center;
+	}
+	.support-bar .support-left ul li {
+		margin: 7px 15px;
+	}
+	.home-area.home-v2 .header-sm-slider img {
+		margin-top: 22%;
+		padding-right: 20px;
+	}
+	.features-area.style-02 .features-item .single-features-item h4 {
+		margin-top: 0px;
+	}
+	.home-area.home-v2 .header-slider .header-bg {
+		position: relative;
+		padding: 20px 0px 200px;
+	}
+	.features-area.style-02 .features-item .single-features-item {
+		width: 260px;
+		height: 240px;
+		margin-bottom: 30px;
+	}
+}
+
+
+/* mobile tablet layout 375px */
+
+@media only screen and (max-width: 384px) {
+	h2 {
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: 600;
+	}
+	h3 {
+		font-size: 20px;
+		line-height: 30px;
+		font-weight: 500;
+	}
+	h4 {
+		font-size: 15px;
+		font-weight: 500;
+	}
+	p{
+		font-size:13px;
+	}
+	a{
+		font-size:14px;
+	}
+	.transpor-mission .mission-content::before {
+		display: none;
+	}
+	.transpor-mission .mission-content {
+		margin: 0px; 
+	}
+	.section-title .subtitle {
+		font-size: 16px;
+	}
+	.price-area .single-price-wrapper .single-price-plan .price-header .title {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.home-area .transport-slider-progress {
+		display: none;
+	}
+	.home-area.home-v3 .home-v3-contact {
+		left: 3%;
+		transform: rotate(0deg);
+		top: 72%;
+	}
+	.support-bar .support-right .fare-rate-responsive {
+		display: none;
+	}
+	.features-area .features-item {
+		margin: 0px 40px 60px;
+		transform: rotate(0deg);
+	}
+	.features-area .features-item .single-features-item {
+		padding: 80px 0px;
+		width: 250px;
+		height: 250px;
+	}
+	.features-area .features-item .single-features-item .icon {
+		transform: rotate(0deg);
+		text-align: center;
+		margin: 0px;
+	}
+	.features-area .features-item .single-features-item h4 {
+		transform: rotate(0deg);
+		text-align: center;
+		margin-top: 10px;
+	}
+	.support-bar .support-right {
+		text-align: center;
+		float: none;
+	}
+	.support-bar .support-left {
+		text-align: center;
+	}
+	.support-bar .support-left ul li {
+		margin: 7px 15px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .title {
+		font-size: 28px;
+		line-height: 40px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .sub-title {
+		font-size: 16px;
+	}
+	.features-area {
+		padding: 100px 0 130px;
+	}
+	.service-details.style-04 .service-sidebar-item .service-item-inner h2 {
+		font-size: 24px;
+	}
+	.home-area .slider-bottom-transport-wrapper .transport-slider-nav-item a i::before {
+		font-size: 40px;
+	}
+	.home-area .transport-slider-item.slick-active .header-inner .transport-btn span {
+		font-size: 16px;
+	}
+	.home-area.home-v2 .header-sm-slider img {
+		margin-top: 24%;
+		padding-right: 20px;
+	}
+	.features-area.style-02 .features-item .single-features-item h4 {
+		margin-top: 0px;
+	}
+	.home-area.home-v2 .header-slider .header-bg {
+		position: relative;
+		padding: 20px 0px 200px;
+	}
+	.support-bar .support-left ul li {
+		margin: 7px 4px;
+	}
+	.features-area.style-02 .features-item .single-features-item {
+		width: 260px;
+		height: 240px;
+		margin-bottom: 30px;
+	}
+}
+
+
+/* mobile tablet layout 360px */
+
+@media only screen and (max-width: 360px) {
+    
+}
+
+
+/* mobile tablet layout 320px */
+
+@media only screen and (max-width: 330px){
+   	h2 {
+		font-size: 20px;
+		line-height: 24px;
+		font-weight: 600;
+	}
+	h3 {
+		font-size: 16px;
+		line-height: 20px;
+		font-weight: 500;
+	}
+	h4 {
+		font-size: 14px;
+		font-weight: 500;
+	}
+	p{
+		font-size:12px;
+	}
+	a{
+		font-size:12px;
+	}
+	.support-bar .support-right .fare-rate-responsive {
+		display: none;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .title {
+		font-size: 24px;
+		line-height: 40px;
+	}
+	.home-area .transport-slider-area-wrapper .transport-slider .transport-slider-item .header-inner-wrap .header-inner .sub-title {
+		font-size: 14px;
+	}
+	.home-area.home-v2 .header-bg .header-inner-wrap .header-inner .title {
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom: 40px;
+		margin-top: 20px;
+	}
+	.home-area .transport-slider-item.slick-active .header-inner .transport-btn span {
+		font-size: 16px;
+	}
+	.support-bar .support-left ul li {
+		margin: 7px 4px;
+	}
+	.responsive-mobile-menu .navbar-toggler {
+		position: absolute;
+		right: -16px;
+		top: 5px;
+	}
+	.features-area.style-02 .features-item .single-features-item {
+		width: 240px;
+		height: 240px;
+		margin-bottom: 30px;
+	}
+}

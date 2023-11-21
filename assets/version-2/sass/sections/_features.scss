@@ -1,0 +1,101 @@
+/*------------------------------
+    FeaturesArea
+------------------------------*/
+.features-area{
+    padding: 130px 0 130px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg/feature-bg.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    &.style-02{
+        background: var(--button-color);
+        padding: 110px 0 85px;
+        .features-item{
+            margin-top: 0px;
+            transform: rotate(0deg);
+            display: flex;
+            .single-features-item{
+                margin: auto;
+                width: 320px;
+                height: 240px;;
+                margin-bottom: 50px;
+                text-align: center;
+                background-color:  var(--secondary-color);
+                @include transition($transition-long);
+                &:hover{
+                    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+                    transform: rotate(0deg);     
+                    border-radius: 0%;
+                    .icon{
+                        i{
+                            color: var(--secondary-color);
+                        }
+                    }
+                    h4{
+                        color: var(--secondary-color);
+                    }
+                }
+                .icon{
+                    text-align: center;
+                    margin: auto;
+                    transform: rotate(0deg);
+                    i{
+                        color: var(--active-color);
+                        &::before {
+                            font-size: 50px;
+                        }
+                    }
+                }
+                h4{
+                    transform: rotate(0deg);
+                    color: var(--active-color);
+                }
+            }
+        }
+    }
+    .features-item{
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        transform: rotate(45deg);
+        margin: 150px 0px 0px;
+        .single-features-item{
+            margin: auto;
+            width: 250px;
+            height: 250px;;
+            margin: 20px;
+            text-align: center;
+            background-color:  var(--button-color);
+            @include transition($transition-long);
+            &:hover{
+                background-color:  var(--active-color);
+                border-radius: 50%;
+                transform: rotate(0deg);
+                box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+                .icon{
+                    i{
+                        color: var(--secondary-color);
+                    }
+                }
+            }
+            .icon{
+                transform: rotate(-45deg);
+                text-align: center;
+                padding-bottom: 10px;
+                padding-right: 45px;
+                i{
+                    color: var(--active-color);
+                    &::before {
+                        font-size: 50px;
+                    }
+                }
+            }
+            h4{
+               transform: rotate(-45deg);
+               margin-left: 20px;
+                color: var(--secondary-color);
+            }
+        }
+    }
+
+}
+

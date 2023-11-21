@@ -1,0 +1,8 @@
+/*------------------------------
+    Logistics Area
+------------------------------*/
+.logistics_area .logistics-image {
+  background: url(../img/bg/service-bg.png) no-repeat center;
+  background-size: cover;
+  height: 100%;
+  display: block; }

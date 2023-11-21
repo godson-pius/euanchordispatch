@@ -1,0 +1,260 @@
+/*---------------------------------------
+    ## Button
+---------------------------------------*/
+.btn-wrapper {
+  display: block;
+  &.style-02{
+    margin-top: 40px;
+    display: block;
+  }
+  .boxed-btn {
+    display: inline-block;
+    padding: 10px 25px;
+    min-width: 180px;
+    text-align: center;
+    background-color:  var(--active-color);
+    color: var(--secondary-color);
+    text-transform: capitalize;
+    @include transition($transition);
+    font-weight: 400;
+    &:hover {
+      box-shadow: 0px 5px 10px -2px var(--main-color);
+      background-color:  var(--button-color);
+    }
+    &.white {
+      &:hover {
+        background: none;
+        color: var(--main-color);
+        border: 1px solid var(--main-color);
+      }
+    }
+    &.blank{
+      background: transparent;
+      color: var(--active-color);
+      border: 1px solid var(--paragraph-color);
+      &:hover {
+        background:var(--active-color);
+        border: 1px solid var(--active-color);
+        color: var(--secondary-color);
+      }
+    }
+    &.blank-02{
+      background: transparent;
+      color: var(--secondary-color);
+      border: 1px solid var(--secondary-color);
+      &:hover {
+        background:var(--button-color);
+        border: 1px solid var(--button-color);
+        color: var(--secondary-color);
+      }
+    }
+    &.btn-rounded {
+      border-radius: 30px;
+      &:hover {
+        background: none;
+        color: var(--main-color);
+        border: 1px solid var(--main-color);
+      }
+    }
+    
+    
+  }
+  
+  .btn-bounce {
+    background: var(--active-color);
+    box-shadow: 0px 6px 20px -8px var(--active-color);
+    color: var(--secondary-color);
+    display: inline-block;
+    padding: 12px 25px;
+    min-width: 140px;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 1px;
+    text-decoration: none;
+    opacity: .9;
+    @include transition($transition);
+    &:hover{
+      background-color: #F14B4B;
+      color:#FFF;
+      box-shadow: 0px 10px 20px -8px #F14B4B;
+      opacity: 1;
+    }
+  }
+}
+.desktop-center {
+  text-align: center;
+}
+.desktop-left {
+  text-align: left;
+}
+.desktop-right {
+  text-align: right;
+}
+@media only screen and (max-width: 768px) {
+  .tablet-center {
+    text-align: center;
+  }
+  .tablet-left {
+    text-align: left;
+  }
+  .tablet-right {
+    text-align: right;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .mobile-center {
+    text-align: center;
+  }
+  .mobile-left {
+    text-align: left;
+  }
+  .mobile-right {
+    text-align: right;
+  }
+}
+
+
+.buttonload {
+  border: none; 
+  color: #000000; 
+  font-size: 60px;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Bounce To Right */
+.transport-btn {
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  background: transparent;
+  font-weight: 400;
+  &.black{
+      color: #192936;
+      font-weight: 400;
+  }
+  
+}
+
+.transport-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #fff;
+  &.active{
+    color: var(--active-color);
+    font-weight: 500;
+  }
+}
+
+.transport-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.transport-btn:hover span {
+  padding-right: 25px;
+  color: var(--active-color);
+}
+
+.transport-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+  color: var(--active-color);
+}
+
+.shipment-btn{
+  width: 100%;
+  height: 50px;
+  background-color:  var(--active-color);
+  color: var(--secondary-color);
+  display: inline-block;
+  text-align: center;
+  text-transform: capitalize;
+  @include transition($transition);
+  border: 1px solid transparent;
+  &:hover{
+    background-color: #F14B4B;
+    color:#FFF;
+    box-shadow: 0px 10px 20px -8px #F14B4B;
+    opacity: 1;
+  }
+}
+/* Bounce To Right */
+.hvr-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+     transition-duration: 0.5s;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.hvr-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #181A2A;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+      transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+      transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+     transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+     transition-timing-function: ease-out;
+  
+} 
+
+.hvr-right:hover, .hvr-right:focus, .hvr-right:active {
+	color: white; 
+}
+.hvr-right:hover:before, .hvr-right:focus:before, .hvr-right:active:before {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+      transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  -o-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+} 

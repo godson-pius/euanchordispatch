@@ -1,0 +1,239 @@
+/*----------------------
+    Service details Page
+----------------------*/
+.service-details{
+    padding: 130px 0 130px;
+    background-color:  var(--secondary-color);
+    &.style-01{
+        padding: 0px 0 90px;
+        margin-top: -130px;
+        .service-header-img {
+            margin-bottom: 40px;
+            position: relative;
+            overflow: hidden;
+                img {
+                    width: 100%;
+                    height: auto;
+                    @include transition($transition-long);
+                }
+                &:hover {
+                    img {
+                        transform: scale(1.1);
+                        
+                    }
+                }
+            }
+            .service-sidebar-item{
+                .service-item-inner {
+                    margin-bottom: 0px;
+                    h2{
+                        font-size: 36px;
+                    }
+                }
+                .benifit-number{
+                    padding: 10px 0px;
+                    list-style-type: none;
+                    counter-reset: li;
+                    li{
+                        &:before {
+                            counter-increment: li;
+                            content: counter(li, decimal-leading-zero);
+                              color: var(--active-color);
+                              padding-right: 5px;
+                              font-weight: 700;
+                          }
+                    }
+                }
+            }
+            .service-item-grid {
+                background-color: #fff;
+                padding-bottom: 20px;
+                margin-bottom: 30px;
+                @include transition($transition-long);
+                
+                .service-item-img {
+                     position: relative;
+                    overflow: hidden;
+                    img {
+                        width: 100%;
+                        height: auto;
+                        @include transition($transition-long);
+                    }
+                }
+                .service-item-text {
+                    padding: 30px 10px 10px 0px;
+                    h3 {
+                        margin-bottom: 20px;;
+                    }
+                    
+                    p {
+                       font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+               
+            }
+    }
+    &.style-04{
+        .service-sidebar-item{
+            margin-top: -230px;
+            .service-item-inner {
+                margin-bottom: 0px;
+                h2{
+                    font-size: 36px;
+                }
+            }
+            
+        }
+        .shipment-form-wrap{
+            padding: 50px 30px;
+            background-color: var(--secondary-color);
+            margin-top: 0px;
+            box-shadow: 0px -10px 10px #eee;
+            h3{
+                color: var(--active-color);
+                margin-bottom: 20px;
+            }
+            #shipment-form{
+                h4{
+                    font-weight: 700;
+                    color: var(--main-color);
+                }
+                .weight{
+                    display: inline-flex;
+                    width: 100%;
+                    span{
+                        margin: 8px 12px 8px 0px;
+                    }
+                }
+                .shipment-process{
+                    margin: 20px 0;
+                    .form-group{
+                        .form-radio{
+                            padding: 0px 10px 0px 20px;
+                        }
+                        label{
+                            padding: 0px 10px 0px 5px;
+                        }
+                    }
+                }
+            }
+            .form-group {
+                width: 100%;
+                select{
+                    margin-bottom: 30px !important;
+                }
+                .form-control {
+                    display: block;
+                    width: 100%;
+                    height: 50px;
+                    line-height: 1.5;
+                    color: #495057;
+                    background-color: #fff;
+                    background-clip: padding-box;
+                    border: 1px solid #ced4da;
+                    border-radius: 0px;
+                    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+    .service-sidebar-item{
+        .service-item-inner {
+            margin-bottom: 50px;
+            .service-img,
+            .service-single-image {
+            @include transition($transition-long);
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+            .benifit{
+                .benifit-item{
+                    list-style: none;
+                    padding: 20px 0px;
+                    li{
+                        padding: 5px;
+                        &:before{
+                            content:"o";
+                            font-weight:600; 
+                            font-size: 120%;
+                            padding-right: 10px;
+                        }
+                    }
+                }
+            }
+            .services-content{
+                margin: 0px 50px;
+                &::before {
+                    content: "";
+                    height: 9%;
+                    width: 5px;
+                    background-color: var(--active-color);
+                    position: absolute;
+                    left: 15px;
+                }
+                .service-item{
+                    margin-bottom: 0px;
+                }
+            }     
+        }
+       
+    }
+    .service-item {
+        background-color: #fff;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        flex-flow: row wrap;
+        display: flex;
+        @include transition($transition-long);
+        &:hover {
+            @include transition($transition-long);
+            .service-item-img {
+                img {
+                    transform: scale(1.2);
+                }
+            }
+            .service-item-text {
+                h3 {
+                    color: var(--active-color);
+                }
+            }
+        }
+        .service-item-img {
+             position: relative;
+            overflow: hidden;
+            flex: 0 auto;
+            img {
+                width: 100%;
+                height: auto;
+                @include transition($transition-long);
+            }
+        }
+        .service-item-text {
+            padding: 20px 10px 10px 30px;
+            flex: 6 0px; 
+            h3 {
+                margin-bottom: 20px;;
+            }
+            
+            p {
+               font-size: 16px;
+                line-height: 24px;
+            }
+        }
+       
+    }
+}
+.single-contact{
+    margin-bottom: 20px;
+    h4{
+        font-weight: 700;
+    }
+    p{
+        line-height: 16px;
+    }
+}

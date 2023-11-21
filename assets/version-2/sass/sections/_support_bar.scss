@@ -1,0 +1,107 @@
+/*--------------------
+    Support Bar
+--------------------*/
+.support-bar {
+    background-color: var(--button-color);
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    .support-left{
+            align-items: center;
+            height: 100%;
+        ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            li {
+                i{
+                    padding-right: 7px;
+                    &::before {
+                        font-size: 14px;
+                        margin-left: 0px;
+                    }
+                }
+                select {
+                    text-transform: none;
+                    background-color: transparent;
+                    border: none;
+                    color: var(--secondary-color);
+                    option{
+                        color: var(--main-color);
+                    }
+                }
+                display: inline-block;
+                font-size: 14px;
+                margin: 0 8px;
+                &:first-child {
+                    margin-left: 0;
+                }
+                a {
+                    color: var(--bg-color);
+                    @include transition($transition);
+                    &:hover{
+                        color: var(--active-color);
+                    }
+                    i{
+                        padding-right: 7px;
+                        margin-left: 0px;
+                        &::before {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .support-right{
+        float: right;
+        display: inline-flex;
+        ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            li {
+                display: inline-block;
+                font-size: 14px;
+                margin: 0 8px;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &:last-child{
+                    margin-right: 0;
+                }
+                a {
+                    color: var(--bg-color);
+                    font-size: 14px;
+                    @include transition($transition);
+                     &:hover{
+                        color: var(--active-color);
+                    }
+                    i{
+                        padding-right: 7px;
+                        &::before {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.flaticon-earth:before {
+    font-size: 14px;
+    color: #fff;
+}
+
+.row.reorder-xs {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    direction: rtl; }
+  .row.reorder-xs > [class*="col-"] {
+    -ms-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    direction: ltr; } 
