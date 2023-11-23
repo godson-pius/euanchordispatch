@@ -1,5 +1,6 @@
 
 <?php require_once 'components/header.php'; ?>
+<!-- Color: #87CEEB -->
 
     <!-- header slider area start -->
     <!-- header start -->
@@ -113,7 +114,7 @@
                             <ul class="social-link animated fadeInLeftBig">
                                 <li> <a href="#" target="_blank" class="facebook"> Facebook</a></li>
                                 <li><a href="#" target="_blank" class="twitter">Twitter</a></li>
-                                <li><a href="#" target="_blank" class="">WhatsApp</a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=4915216455516" target="_blank" class="">WhatsApp</a></li>
                             </ul>
                         </div>
                         <div class="controler-wrapper">

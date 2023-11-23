@@ -25,10 +25,10 @@
                     <div class="col-lg-2 tab-margin-bottom-30">
                         <div class="footer-widget widget widget_nav_menu">
                             <h5 class="widget-title">Address </h5>
-                            <p>813 West Livingston Drive</p>
-                            <p>King Of Prussia, PA 19406</p>
-                            <p>Phone: +8801-234-567-890</p>
-                            <p> Email: hemal.jms@gmail.com</p>
+                            <p>Am Bootshaus 19</p>
+                            <p>13587 Berlin, Germany</p>
+                            <p><small>Phone: +491-521-645-5516</small></p>
+                            <p><small>Email: info@euanchordispatch.com</small></p>
 
                         </div>
                     </div>

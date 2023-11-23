@@ -51,7 +51,8 @@ Version: 1.0.0
   --main-color: #181A2A;
   --secondary-color: #FFFFFF;
   --bg-color: #F5F5F5;
-  --active-color: #F14B4B;
+  /* --active-color: #F14B4B; */
+  --active-color: #87CEEB;
   --button-color: #14448C;
   --heading-color: #201D2E;
   --paragraph-color: #505050;
@@ -3006,14 +3007,14 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .navbar-area {
   padding: 0px;
   margin: 0px;
-  background-color: rgba(241, 75, 75, 0.9);
+  background-color: #87CEEB;
 }
 .navbar-area.style-03 {
   background-color: rgba(20, 68, 140, 0.9);
   z-index: 99999;
 }
 .navbar-area.style-02 {
-  background-color: rgba(241, 75, 75, 0.9);
+  background-color: #87CEEB;
   z-index: 99999;
 }
 .navbar-area.nav-absolute {

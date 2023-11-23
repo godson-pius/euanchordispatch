@@ -44,7 +44,8 @@ Version: 1.0.0
 -----------------*/
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&family=Yantramanav:wght@300;400;500;700;900&display=swap");
 :root {
-  --main-color: #FA4318;
+  /* --main-color: #FA4318; */
+  --main-color: #87CEEB;
   --heading-color: #080C24;
   --paragraph-color: #565969;
   --body-font: "Public Sans", sans-serif;
@@ -1381,7 +1382,7 @@ ul {
   font-size: 16px;
   color: var(--main-color);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(15.22%, rgba(250, 67, 24, 0)), color-stop(33.76%, rgba(250, 67, 24, 0.0833333)), color-stop(58.49%, rgba(250, 67, 24, 0.23)), color-stop(79.25%, rgba(250, 67, 24, 0.39383)), to(#FA4318));
-  background: linear-gradient(180deg, rgba(250, 67, 24, 0) 15.22%, rgba(250, 67, 24, 0.0833333) 33.76%, rgba(250, 67, 24, 0.23) 58.49%, rgba(250, 67, 24, 0.39383) 79.25%, #FA4318 100%);
+  background: linear-gradient(180deg, rgba(250, 67, 24, 0) 15.22%, rgba(250, 67, 24, 0.0833333) 33.76%, rgba(250, 67, 24, 0.23) 58.49%, rgba(250, 67, 24, 0.39383) 79.25%, #87CEEB 100%);
   height: 46px;
   line-height: 46px;
   border-radius: 20px;

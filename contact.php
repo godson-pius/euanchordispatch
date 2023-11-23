@@ -84,8 +84,7 @@
                                     <i class="fa fa-phone-alt"></i>
                                 </div>
                                 <div class="media-body">
-                                    <p>+1 952-435-7106</p>
-                                    <p>+1 932-654-9874</p>
+                                    <p>+491-521-645-5516</p>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +96,7 @@
                                 </div>
                                 <div class="media-body">
                                     <p>info@euanchordispatch.com</p>
-                                    <p>info.example@gmail.com</p>
+                                    <p>support@euanchordispatch.com</p>
                                 </div>
                             </div>
                         </div>
@@ -108,8 +107,8 @@
                                     <i class="fa fa-map-marker-alt"></i>
                                 </div>
                                 <div class="media-body">
-                                    <p>2245 Gilbert Ave, Cincinnati, OH</p>
-                                    <p>45206, United States</p>
+                                    <p>Am Bootshaus 19</p>
+                                    <p>13587 Berlin, Germany</p>
                                 </div>
                             </div>
                         </div>
