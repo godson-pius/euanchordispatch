@@ -38,6 +38,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
+    <!-- TIDIO -->
+    <script src="//code.tidio.co/vq71wa1qbuurnhhykg7ubuzynqquzddm.js" async></script>
+
 </head>
 
 <body>
