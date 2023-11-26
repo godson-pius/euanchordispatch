@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="EuanchorDispatch provides full ocean freight service to move your commercial and project cargo all over the world. We leverage our long-standing relationships with our carrier partners to provide you with efficient and economical solutions for all your shipping needs.">
+    <meta name="description" content="EuanchorDispatch provides full freight services to move your commercial and project cargo all over the world. We leverage our long-standing relationships with our carrier partners to provide you with efficient and economical solutions for all your shipping needs.">
     <meta name="keywords" content="EuanchorDispatch, Dispatch, Logistics, Delivery, Ocean Freight, Air Freight, Rail Freight, Road Freight">
     <title>Euanchordispatch Logistics</title>
     <!-- favicon -->
