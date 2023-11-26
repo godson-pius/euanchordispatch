@@ -39,7 +39,10 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 
     <!-- TIDIO -->
-    <script src="//code.tidio.co/vq71wa1qbuurnhhykg7ubuzynqquzddm.js" async></script>
+    <!-- <script src="//code.tidio.co/vq71wa1qbuurnhhykg7ubuzynqquzddm.js" async></script> -->
+
+    <!-- CRISP -->
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="40145849-a044-4167-afa2-873b9b4d9811";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 
 </head>
 
@@ -105,6 +108,10 @@
 
                     <li>
                         <a href="contact">Contact</a>
+                    </li>
+                    
+                    <li>
+                    <a href="https://api.whatsapp.com/send?phone=4915216455516" target="_blank" class="">WhatsApp Chat</a>
                     </li>
                     
                 </ul>

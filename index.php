@@ -112,9 +112,9 @@
                     <div class="col-lg-6">
                         <div class="home-v2-contact">
                             <ul class="social-link animated fadeInLeftBig">
-                                <li> <a href="#" target="_blank" class="facebook"> Facebook</a></li>
-                                <li><a href="#" target="_blank" class="twitter">Twitter</a></li>
-                                <li><a href="https://api.whatsapp.com/send?phone=4915216455516" target="_blank" class="">WhatsApp</a></li>
+                                <!-- <li> <a href="#" target="_blank" class="facebook"> Facebook</a></li> -->
+                                <!-- <li><a href="#" target="_blank" class="twitter">Twitter</a></li> -->
+                                <!-- <li style="z-index: 4000px;"><a href="https://api.whatsapp.com/send?phone=4915216455516" target="_blank" class="">WhatsApp</a></li> -->
                             </ul>
                         </div>
                         <div class="controler-wrapper">
