@@ -94,17 +94,17 @@ if (isset($_GET['cGFja19pZA--'])) {
                         <td data-title="Destination : ">Destination: <strong> <?= $destination ?></strong>&nbsp;</td>
                     </tr>
                     <tr>
-                        <!--<td data-title="Type of Shipment : "><strong>-->
-                        <!--        <?= $type ?></strong>&nbsp;</td>-->
+                        <td data-title="Type of Shipment : ">Type of Shipment: <strong>
+                                <?= $type ?></strong>&nbsp;</td>
                         <td data-title="Weight(kg) : ">Weight(kg): <strong><?= $weight ?></strong>&nbsp;</td>
-                        <!--<td data-title="Courier : "><strong><?= $courier ?></strong>&nbsp;</td>-->
+                        <td data-title="Courier : ">Courier: <strong><?= $courier ?></strong>&nbsp;</td>
                     </tr>
                     <tr>
                         <td data-title="Carrier Reference No. : ">Carrier Reference No. :<strong>
                                 <a href="" target="_blank"><?= $ref_no ?></a>
                             </strong>&nbsp;</td>
                         <td data-title="Product : ">Product: <strong><?= $product ?></strong>&nbsp;</td>
-                        <td data-title="Quantity : ">Quantity: <strong>1</strong>&nbsp;</td>
+                        <td data-title="Quantity : ">Quantity: <strong><?= $qnty; ?></strong>&nbsp;</td>
                     </tr>
                     <tr>
                         <!--<td data-title="Payment Mode : " ><strong>-->
@@ -114,6 +114,7 @@ if (isset($_GET['cGFja19pZA--'])) {
 <!--                        <td data-title="Total freight : "><strong>--><?//= $package_name ?><!--</strong>&nbsp;</td>-->
                         <td data-title="Mode of Shipment: ">Mode of Shipment: <strong>
                                 <?= $mode ?></strong>&nbsp;</td>
+                                
                     </tr>
                     <tr>
                         <td data-title="Departure Date : ">Departure Date: <strong><?= date("F j, Y", strtotime($dept_date)) ?></strong>&nbsp;</td>
