@@ -10,7 +10,7 @@
     <meta name="keywords" content="EuanchorDispatch, Dispatch, Logistics, Delivery, Ocean Freight, Air Freight, Rail Freight, Road Freight">
     <title>Euanchordispatch Logistics</title>
     <!-- favicon -->
-    <link rel=icon href=assets/img/favicon.png sizes="20x20" type="image/png">
+    <link rel=icon href=assets/img/logo.png sizes="20x20" type="image/png">
     <!-- animate -->
     <link rel="stylesheet" href="assets/version-2/css/animate.css">
     <!-- bootstrap -->
@@ -39,6 +39,13 @@
     <link rel="stylesheet" href="assets/css/vendor.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <meta property="og:title" content="Euanchordispatch">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="index">
+    <meta property="og:site_name" content="Euanchordispatch">
+    <meta property="og:image" content="assets/img/logo.png">
+    <meta property="og:description" content="EuanchorDispatch provides full freight services to move your commercial and project cargo all over the world. We leverage our long-standing relationships with our carrier partners to provide you with efficient and economical solutions for all your shipping needs.">
 
     <!-- TIDIO -->
     <!-- <script src="//code.tidio.co/vq71wa1qbuurnhhykg7ubuzynqquzddm.js" async></script> -->
