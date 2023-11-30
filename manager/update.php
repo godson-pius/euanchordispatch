@@ -27,6 +27,7 @@
                 redirect_to("details?cGFja19pZA--=$id");
             }else {
                 $errors = $response;
+                print_r($errors);
                 extract($errors);
             }
         }

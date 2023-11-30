@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 function login_admin($post)
 {
 	extract($post);
@@ -385,8 +384,6 @@ function update_package($post, $id)
 		$error['rphone_err'] = "Empty field not allowed";
 	}
 
-
-
 	if (!empty($remail)) {
 		if ($remail != $remail_hidden) {
 			$temp_email = sanitize_email($remail);
@@ -431,11 +428,11 @@ function update_package($post, $id)
 	}
 
 
-	if (!empty($location)) {
-		$location = sanitize($location);
-	}else {
-		$error['location_err'] = "Empty field not allowed";
-	}
+	// if (!empty($location)) {
+	// 	$location = sanitize($location);
+	// }else {
+	// 	$error['location_err'] = "Empty field not allowed";
+	// }
 
 
 	if (!empty($pstatus)) {
@@ -515,11 +512,11 @@ function update_package($post, $id)
         $error['del_time_err'] = "Empty field not allowed";
     }
 
-    if (!empty($type)) {
-        $type = sanitize($type);
-    }else {
-        $error['type_err'] = "Empty field not allowed";
-    }
+    // if (!empty($type)) {
+    //     $type = sanitize($type);
+    // }else {
+    //     $error['type_err'] = "Empty field not allowed";
+    // }
 
 	if (!empty($kg)) {
 		$kg = sanitize($kg);
@@ -527,11 +524,11 @@ function update_package($post, $id)
 		$error['kg_err'] = "Empty field not allowed";
 	}
 
-	if (!empty($amount)) {
-		$amount = sanitize($amount);
-	}else {
-		$error['amount_err'] = "Empty field not allowed";
-	}
+	// if (!empty($amount)) {
+	// 	$amount = sanitize($amount);
+	// }else {
+	// 	$error['amount_err'] = "Empty field not allowed";
+	// }
 
 	if (!empty($pmode)) {
 		$pmode = sanitize($pmode);
@@ -558,7 +555,7 @@ function update_package($post, $id)
 	    global $link;
 		$sql = "SELECT token FROM shipment WHERE id = '$id'";
 		$response = mysqli_query($link, $sql);
-
+		
 		if ($response){
             $response = mysqli_fetch_assoc($response);
 		    $token = $response['token'];

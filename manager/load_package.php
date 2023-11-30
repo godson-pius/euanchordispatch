@@ -96,28 +96,7 @@ if ($all_package) {
 
                                         <div class="modal-body">
                                             <div class="row">
-                                                <div class="col-md-4 col-sm-4 col-xs-4">
-                                                    <h6 style="font-weight:bold;">SENDER</h6>
-                                                    <div style="line-height:28px; margin-bottom: 20px;">
-                                                        <h4 class="text-black"> <?= $sender_name ?></h4>
-                                                    </div>
-                                                    <div>
-                                                        <p class="mb-0" style="margin-bottom: 0"><strong>Phone:</strong> <?= $sender_phone ?></p>
-                                                        <p class="mb-0" style="margin-bottom: 0"><strong>Address:</strong> <?= $sender_address ?></p>
-                                                        <p class="mb-0" style="margin-bottom: 0"><strong>Email:</strong> <?= $sender_email ?></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4 col-sm-4 col-xs-4">
-                                                    <h6 style="font-weight:bold;">RECIPIENT</h6>
-                                                    <div style="line-height:28px; margin-bottom: 20px;">
-                                                        <h4 class="text-black"> <?= $receiver_name ?></h4>
-                                                    </div>
-                                                    <div>
-                                                        <p class="mb-0" style="margin-bottom: 0"><strong>Phone:</strong> <?= $receiver_phone ?></p>
-                                                        <p class="mb-0" style="margin-bottom: 0"><strong>Address:</strong> <?= $receiver_address ?></p>
-                                                        <p class="mb-0" style="margin-bottom: 0"><strong>email:</strong> <?= $receiver_email ?></p>
-                                                    </div>
-                                                </div>
+                                                
                                                 <div class="col-md-4 col-sm-4 col-xs-4">
                                                     <div style="line-height:28px; width:80%; margin: 0 auto 20px auto">
                                                         <img src="../barcode-clipart-one-dimensional-3.jpg" alt="" class="w-100" style="width: 100%">
